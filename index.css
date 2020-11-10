@@ -3,6 +3,12 @@
 @font-face {
     font-family: 'MyWebFont';
     src:url('media/Western Bang Bang.woff') format('woff');
+    font-family: 'Hapna';
+    src:url('media/hapna-slab-serif-webfont.woff') format('woff');
+    src:url('media/hapna-slab-serif-webfont.woff2') format('woff2');
+    font-family: 'Calvous';
+    src:url('media/CalvousSpursStampDEMO.woff') format('woff');
+    src:url('media/CalvousSpursStampDEMO.woff2') format('woff2');
   }
   
 
@@ -107,10 +113,18 @@ h2 {
 }
 h3
 {
-    font-family: 'MyWebFont', Fallback, sans-serif;
-    font-weight: bold;
+    font-family: 'Calvous', Fallback, sans-serif;
     font-size: 3em;
     color:#2e2e2e;
+}
+p{
+    font-family:'Hapna';
+    font-size: 1em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    text-align: justify;
 }
 .guns
 {
