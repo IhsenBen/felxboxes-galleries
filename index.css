@@ -99,9 +99,12 @@ a:link {
     text-decoration: none;
 
   }
+a{
+    color: #2e2e2e;
 
+}
   a:hover{
-      color:red;
+      color:#721121;
   }
 
 /* header */
@@ -111,7 +114,9 @@ h2 {
     color: #2e2e2e;
     text-align: center;
 }
-
+h2:hover{
+    color:#721121;
+}
 h3
 {
     font-family: 'Calvous', Fallback, sans-serif;
@@ -263,7 +268,7 @@ font-size: 2em;
 }
 .saloon{
     margin-top: -8em;
-    max-height: 300px;
+    max-height: 400px;
     max-width: 100%;
 }
 
@@ -302,7 +307,7 @@ font-size: 2em;
 .button {
     display: inline-flex;
     height: 40px;
-    width: 150px;
+    width: 200px;
     border-image-source: url(media/single_3.png);
     border-image-repeat: repeat;
     border-image-slice: 14;
@@ -312,7 +317,7 @@ font-size: 2em;
     color: #2e2e2e;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: .8em;
+    font-size: .9em;
     letter-spacing: 1.5px;
     align-items: center;
     justify-content: center;
@@ -335,7 +340,7 @@ font-size: 2em;
     margin-top: 15px;
     align-self: flex-end;
     left: -200px;
-    background: #880606;
+    background: #721121;
     position: absolute;
     transition: all .3s ease-Out;
     bottom: 0;
