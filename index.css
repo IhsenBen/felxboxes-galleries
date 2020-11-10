@@ -1,5 +1,10 @@
 /* Woop-woop! That's the sound of da police!  */
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@font-face {
+    font-family: 'MyWebFont';
+    src:url('media/Western Bang Bang.woff') format('woff');
+  }
+  
 
 body{
     
@@ -94,35 +99,113 @@ a:link {
   }
 
 /* header */
+h2 {
+    font-family: 'Rye', cursive;
+    font-size: 4em;
+    color: #2e2e2e;
+    text-align: center;
+}
+h3
+{
+    font-family: 'MyWebFont', Fallback, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color:#2e2e2e;
+}
 .guns
 {
-    display:flex;
-    
-    flex-wrap: wrap;
-}
-
-.gun {
-       
-       
-        border-image-source: url(media\single_3.png);
+      
+        display: flex;
+        flex-wrap: wrap;
+        border-image-source: url(media/single_3.png);
         border-image-repeat: repeat;
         border-image-slice: 14;
         border-style: solid;
         border-width: 6px 0 0;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
         margin-top: -12px;
         padding-top: 15px;
         text-align: center;
+       
+}
+.guns>* {
+    flex: 1 1 400px;
+}
+
+.gun {
+       
+    border-image-source: url(media/single_3.png);
+    border-image-repeat: repeat;
+    border-image-slice: 12;
+    border-style: solid;
+    border-width: 0 6px 0 6px;
+    
+       
     }
 
 .gunpic{
-    display: block;
+    
     margin: 0 auto;
     max-height: 150px;
     max-width: 100%;
 }
+.clothing{
+    display: flex;
+    flex-wrap: wrap;
+    border-image-source: url(media/single_3.png);
+    border-image-repeat: repeat;
+    border-image-slice: 14;
+    border-style: solid;
+    border-width: 6px 0 0;
+    margin-top: -12px;
+    padding-top: 15px;
+    text-align: center;
+}
+.clothing>* {
+    flex: 1 1 400px;
+}
+.outfit{
+    border-image-source: url(media/single_3.png);
+    border-image-repeat: repeat;
+    border-image-slice: 12;
+    border-style: solid;
+    border-width: 0 6px 0 6px;
+}
+.clothes{
+    margin: 0 auto;
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.hats{
+    display: flex;
+    flex-wrap: wrap;
+    border-image-source: url(media/single_3.png);
+    border-image-repeat: repeat;
+    border-image-slice: 14;
+    border-style: solid;
+    border-width: 6px 0 0;
+    margin-top: -12px;
+    padding-top: 15px;
+    text-align: center;
+
+}
+.hats>* {
+    flex: 1 1 400px;
+}
+.hat {
+    border-image-source: url(media/single_3.png);
+    border-image-repeat: repeat;
+    border-image-slice: 12;
+    border-style: solid;
+    border-width: 0 6px 0 6px;
+}
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 865px) {
 
