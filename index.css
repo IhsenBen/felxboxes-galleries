@@ -1,15 +1,20 @@
 /* Woop-woop! That's the sound of da police!  */
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
-@import url(//db.onlinewebfonts.com/c/a53ef7a88154154a8cc497427114b38f?family=HapnaSlabSerifW00-Regular);
+
 @font-face {
     font-family: 'MyWebFont';
     src:url('media/Western Bang Bang.woff') format('woff');
+
+  
 
     font-family: 'Calvous';
     src:url('media/CalvousSpursStampDEMO.woff') format('woff');
     src:url('media/CalvousSpursStampDEMO.woff2') format('woff2');
   }
-  
+  @font-face{
+    font-family: 'MyWebFont1';
+    src:url('media/Hapna-Slab-Serif.woff') format('woff');
+  }
 
 body{
    
@@ -126,7 +131,7 @@ h3
 
 p{
 
-    font-family: "HapnaSlabSerifW00-Regular";
+    font-family: "MyWebFont1";
     font-weight: bold;
     margin-inline-start: 10px;
     margin-inline-end: 10px;
